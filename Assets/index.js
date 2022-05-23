@@ -1,2 +1,2 @@
-alert('Hell')
-console.log('Hello World');
+alert("Hello World");
+
