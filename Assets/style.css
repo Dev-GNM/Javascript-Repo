@@ -1,17 +1,14 @@
-*{
+* {
     margin: 0.6em;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-body{
+body {
     background-color: lightcyan;
 }
 
-
-
-nav{
+nav {
     height: 7em;
     background-color: rgb(147, 147, 185);
     display: flex;
@@ -19,23 +16,22 @@ nav{
     justify-content: space-between;
 }
 
-
-nav>.logo{
+nav>.logo {
     font-size: 25px;
     padding: 0;
     margin: 20px;
 }
 
-
-nav>.navbar>ul>li{
-    display:inline-block;
+nav>.navbar>ul>li {
+    display: inline-block;
     justify-content: flex-end;
     overflow: visible;
     list-style: none;
     padding: 0.3em;
 }
 
-nav>.navbar>ul>li>.submit{
-    padding: 5px;
-    background-color: yellow;
+nav>.navbar>ul>li a:hover {
+    color: red;
+    transition: ease-out;
+    text-transform: uppercase;
 }
